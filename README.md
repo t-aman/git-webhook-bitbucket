@@ -1,8 +1,8 @@
 # 概要
 
-#### BitBucketからの自動デプロイ
+#### Bitbucketからの自動デプロイ
 
-BitBucketのWebHooksを使用して、自動的にリモートサーバに更新資産を反映させるスクリプトです。
+BitbucketのWebHooksを使用して、自動的にリモートサーバに更新資産を反映させるスクリプトです。
 
 #### 動作環境
 
@@ -15,7 +15,7 @@ BitBucketのWebHooksを使用して、自動的にリモートサーバに更新
 
     $ git clone https://xxxx@bitbucket.org/xxxx/xxxx.git ./
 
-#### 2. BitBucketでWebhooksを設定
+#### 2. BitbucketでWebhooksを設定
 
     ・https://xxxx/webhook-bitbucket.php
     ・Triggers：Repository push
@@ -26,5 +26,5 @@ BitBucketのWebHooksを使用して、自動的にリモートサーバに更新
     ・BitBucketで設定したＵＲＬのホスト名を定義
     ※WEBHOOK_HOST　例) xxxxxxx.sakura.ne.jp
 
-#### 4. BitBucketにPUSHすると自動的にサーバに反映される
+#### 4. BitbucketにPUSHすると自動的にサーバに反映される
 
