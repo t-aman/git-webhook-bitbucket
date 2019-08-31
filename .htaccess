@@ -1,0 +1,11 @@
+
+# ファイルとディレクトリを保護
+SetEnvIf Request_URI "(\.(gitignore|md)|/(.git|.vscode)/)" IVDIR
+Order Allow,Deny
+Allow from all
+Deny from env=IVDIR
+ErrorDocument 401 /error.html
+ErrorDocument 403 /error.html
+ErrorDocument 404 /error.html
+ErrorDocument 500 /error.html
+ErrorDocument 503 /error.html
